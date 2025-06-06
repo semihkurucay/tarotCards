@@ -1,0 +1,442 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\allCardsImages\cardsBackımage\**" />
+    <EmbeddedResource Remove="Properties\allCardsImages\cardsBackımage\**" />
+    <None Remove="Properties\allCardsImages\cardsBackımage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\allCardsImages\cardsBackimage\tarotCard.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\aceOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\aceOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\aceOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\aceOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\eightOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\eightOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\eightOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\eightOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fiveOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fiveOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fiveOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fiveOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fourOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fourOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fourOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\fourOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\kingOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\kingOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\kingOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\kingOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\knightOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\knightOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\knightOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\knightOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\nineOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\nineOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\nineOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\nineOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\pageOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\pageOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\pageOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\pageOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\queenOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\queenOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\queenOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\queenOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sevenOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sevenOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sevenOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sevenOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sixOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sixOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sixOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\sixOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\tenOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\tenOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\tenOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\tenOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\threeOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\threeOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\threeOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\threeOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\twoOfCups.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\twoOfPentacles.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\twoOfSwords.jpg" />
+    <None Remove="Properties\allCardsImages\cardsImages\twoOfWands.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\death.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\deathR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\judgement.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\judgementR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\justice.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\justiceR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\strength.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\strengthR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\temperance.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\temperanceR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theChariot.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theChariotR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theDevil.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theDevilR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theEmperor.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theEmperorR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theEmpress.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theEmpressR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theFool.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theFoolR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHangedMan.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHangedManR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHermit.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHermitR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHierophant.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHierophantR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHighPriestess.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theHighPriestessR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theLovers.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theLoversR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theMagician.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theMagicianR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theMoon.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theMoonR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theStar.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theStarR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theSun.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theSunR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theTower.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theTowerR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theWorld.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\theWorldR.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\wheelOfFortune.jpg" />
+    <None Remove="Properties\allCardsImages\rotateCardsImages\wheelOfFortuneR.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\allCardsImages\cardsBackimage\tarotCard.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\aceOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\aceOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\aceOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\aceOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\eightOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\eightOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\eightOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\eightOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fiveOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fiveOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fiveOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fiveOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fourOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fourOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fourOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\fourOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\kingOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\kingOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\kingOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\kingOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\knightOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\knightOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\knightOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\knightOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\nineOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\nineOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\nineOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\nineOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\pageOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\pageOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\pageOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\pageOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\queenOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\queenOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\queenOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\queenOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sevenOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sevenOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sevenOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sevenOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sixOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sixOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sixOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\sixOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\tenOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\tenOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\tenOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\tenOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\threeOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\threeOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\threeOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\threeOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\twoOfCups.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\twoOfPentacles.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\twoOfSwords.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\cardsImages\twoOfWands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\death.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\deathR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\judgement.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\judgementR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\justice.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\justiceR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\strength.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\strengthR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\temperance.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\temperanceR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theChariot.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theChariotR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theDevil.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theDevilR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theEmperor.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theEmperorR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theEmpress.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theEmpressR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theFool.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theFoolR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHangedMan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHangedManR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHermit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHermitR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHierophant.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHierophantR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHighPriestess.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theHighPriestessR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theLovers.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theLoversR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theMagician.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theMagicianR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theMoon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theMoonR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theStar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theStarR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theSun.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theSunR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theTower.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theTowerR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theWorld.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\theWorldR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\wheelOfFortune.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\allCardsImages\rotateCardsImages\wheelOfFortuneR.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
