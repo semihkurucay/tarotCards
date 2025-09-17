@@ -16,3 +16,12 @@
 <img width="989" height="813" alt="Ekran görüntüsü 2025-08-23 133122" src="https://github.com/user-attachments/assets/e32617a3-509c-430a-a1b2-db9f9765da46" />
 <img width="535" height="588" alt="Ekran görüntüsü 2025-08-23 133203" src="https://github.com/user-attachments/assets/356c36f2-c0b6-41a4-b41c-b8e386605f8e" />
 <img width="635" height="539" alt="Ekran görüntüsü 2025-08-23 133232" src="https://github.com/user-attachments/assets/3054b1c2-469b-4cc2-acd4-3edfb7b936ae" />
+
+
+## ⚖️ Lisans
+
+Bu proje [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) lisansı ile lisanslanmıştır.
+
+🔒 Ticari kullanım yasaktır.  
+📎 Eğitim ve kişisel kullanım için serbesttir.  
+📩 Ticari kullanım için iletişime geçiniz.
